@@ -1,0 +1,190 @@
+API_KEY.txt
+
+# Byte-compiled / optimized / DLL files
+Bert-VITS2/__pycache__/
+Bert-VITS2/*.py[cod]
+Bert-VITS2/*$py.class
+
+# C extensions
+Bert-VITS2/*.so
+
+# Distribution / packaging
+Bert-VITS2/.Python
+Bert-VITS2/build/
+Bert-VITS2/develop-eggs/
+Bert-VITS2/dist/
+Bert-VITS2/downloads/
+Bert-VITS2/eggs/
+Bert-VITS2/.eggs/
+Bert-VITS2/lib/
+Bert-VITS2/lib64/
+Bert-VITS2/parts/
+Bert-VITS2/sdist/
+Bert-VITS2/var/
+Bert-VITS2/wheels/
+Bert-VITS2/share/python-wheels/
+Bert-VITS2/*.egg-info/
+Bert-VITS2/.installed.cfg
+Bert-VITS2/*.egg
+Bert-VITS2/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+Bert-VITS2/*.manifest
+Bert-VITS2/*.spec
+
+# Installer logs
+Bert-VITS2/pip-log.txt
+Bert-VITS2/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+Bert-VITS2/htmlcov/
+Bert-VITS2/.tox/
+Bert-VITS2/.nox/
+Bert-VITS2/.coverage
+Bert-VITS2/.coverage.*
+Bert-VITS2/.cache
+Bert-VITS2/nosetests.xml
+Bert-VITS2/coverage.xml
+Bert-VITS2/*.cover
+Bert-VITS2/*.py,cover
+Bert-VITS2/.hypothesis/
+Bert-VITS2/.pytest_cache/
+Bert-VITS2/cover/
+
+# Translations
+Bert-VITS2/*.mo
+Bert-VITS2/*.pot
+
+# Django stuff:
+Bert-VITS2/*.log
+Bert-VITS2/local_settings.py
+Bert-VITS2/db.sqlite3
+Bert-VITS2/db.sqlite3-journal
+
+# Flask stuff:
+Bert-VITS2/instance/
+Bert-VITS2/.webassets-cache
+
+# Scrapy stuff:
+Bert-VITS2/.scrapy
+
+# Sphinx documentation
+Bert-VITS2/docs/_build/
+
+# PyBuilder
+Bert-VITS2/.pybuilder/
+Bert-VITS2/target/
+
+# Jupyter Notebook
+Bert-VITS2/.ipynb_checkpoints
+
+# IPython
+Bert-VITS2/profile_default/
+Bert-VITS2/ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+Bert-VITS2/.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+Bert-VITS2/__pypackages__/
+
+# Celery stuff
+Bert-VITS2/celerybeat-schedule
+Bert-VITS2/celerybeat.pid
+
+# SageMath parsed files
+Bert-VITS2/*.sage.py
+
+# Environments
+Bert-VITS2/.env
+Bert-VITS2/.venv
+Bert-VITS2/env/
+Bert-VITS2/venv/
+Bert-VITS2/ENV/
+Bert-VITS2/env.bak/
+Bert-VITS2/venv.bak/
+
+# Spyder project settings
+Bert-VITS2/.spyderproject
+Bert-VITS2/.spyproject
+
+# Rope project settings
+Bert-VITS2/.ropeproject
+
+# mkdocs documentation
+Bert-VITS2/site
+
+# mypy
+Bert-VITS2/.mypy_cache/
+Bert-VITS2/.dmypy.json
+Bert-VITS2/dmypy.json
+
+# Pyre type checker
+Bert-VITS2/.pyre/
+
+# pytype static type analyzer
+Bert-VITS2/.pytype/
+
+# Cython debug symbols
+Bert-VITS2/cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+Bert-VITS2/.DS_Store
+Bert-VITS2/models
+Bert-VITS2/logs
+
+Bert-VITS2/filelists/*
+!Bert-VITS2/filelists/esd.list
+Bert-VITS2/data/*
+Bert-VITS2/*.yml
+!Bert-VITS2/default_config.yml
+Bert-VITS2/Web/
+Bert-VITS2/emotional/*/*.bin
+Bert-VITS2/slm/*/*.bin
+Bert-VITS2/bert/*/*.bin
+Bert-VITS2/bert/*/*.h5
+Bert-VITS2/bert/*/*.model
+Bert-VITS2/bert/*/*.safetensors
+Bert-VITS2/bert/*/*.msgpack
+Bert-VITS2/asr_transcript.py
+Bert-VITS2/extract_list.py
+Bert-VITS2/dataset
+Bert-VITS2/Data
+Bert-VITS2/Model
+Bert-VITS2/raw/
+Bert-VITS2/logs/
+Bert-VITS2/Data/*
+Bert-VITS2/onnx
+Bert-VITS2/.vs
