@@ -51,10 +51,10 @@ def chat_with_atri(user_input, chat_history):
 
 # 创建 Gradio 界面
 with gr.Blocks(title="AtriChat", css=custom_css) as demo:
-    gr.Markdown("# 和 ATRI 酱聊天！")
+    # gr.Markdown("# 和 ATRI 酱聊天！")
     
     # 纵向排列组件
-    with gr.Column():
+    with gr.Column(elem_classes="column"):
         chatbot = gr.Chatbot(label="聊天记录", height=400, type="messages")  # 聊天记录
         status_label = gr.Label(label="系统状态", value="", visible=False)  # 状态标签
         user_input = gr.Textbox(label="输入你的消息", placeholder="输入消息并按回车...")  # 输入框
@@ -83,4 +83,4 @@ with gr.Blocks(title="AtriChat", css=custom_css) as demo:
 
 # 启动 Gradio 应用
 demo.queue(default_concurrency_limit=3)
-demo.launch(share=True)
+demo.launch(share=False)

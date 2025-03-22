@@ -1,16 +1,9 @@
 .gradio-container {
-    background: url('/gradio_api/file=assets/background.jpg')
+    background: url('/gradio_api/file=assets/background.jpg');
+    background-size: cover;
 }
 
-.chatbot {
-    background-color: transparent !important;
-}
-
-.message {
-    background-color: transparent !important;
-    border: none !important;
-}
-
-.user, .bot {
-    color: white !important;
+.column{
+    width: 70%;
+    margin-left: 30%;
 }
