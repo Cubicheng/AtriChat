@@ -1,5 +1,7 @@
 API_KEY.txt
 
+__pycache__/
+
 # Byte-compiled / optimized / DLL files
 Bert-VITS2/__pycache__/
 Bert-VITS2/*.py[cod]

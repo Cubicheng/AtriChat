@@ -1,0 +1,16 @@
+.gradio-container {
+    background: url('/gradio_api/file=assets/background.jpg')
+}
+
+.chatbot {
+    background-color: transparent !important;
+}
+
+.message {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.user, .bot {
+    color: white !important;
+}
